@@ -1,0 +1,182 @@
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../font/helveticaneue-thin-webfont.eot');
+    src: url('../font/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('../font/helveticaneue-thin-webfont.woff') format('woff'),
+         url('../font/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../font/helveticaneuecyr-bold-webfont.eot');
+    src: url('../font/helveticaneuecyr-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+         url('../font/helveticaneuecyr-bold-webfont.woff') format('woff'),
+         url('../font/helveticaneuecyr-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+
+}
+
+body{
+	background-color: gray;
+}
+
+.box1{
+    width: 100%;
+    height: 1064px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    background-image: url(../img/background.jpg);
+    font-family: 'Helvetica Neue Regular'
+}
+
+.heder{
+	width: 100%;
+	height:36px;
+	background-color: #085596;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.heder1{
+    margin-right: 20px;
+
+}
+.heder1 li{
+    display: inline-block;
+	float: right;
+	color: white;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+.heder1 li a{
+	color: inherit;
+	text-decoration: none;
+
+}
+.heder1 li:hover{
+	background-color: #3381c7;
+
+}
+.heder1 li a:hover{
+	text-decoration: underline;
+	background-color: #3381c7;
+}
+.flag{
+	float: right;
+	margin-top: 5px;
+	padding-left: 10px;
+	border-left: 1px solid #3381c7;
+}
+
+.heder2 li{
+	display: inline-block;
+	float: right;
+	color: #61b0f7;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.heder2 li a{
+	color: inherit;
+	text-decoration: none;
+
+}
+.heder2 li:hover{
+	background-color: #3381c7;
+
+}
+.heder2 li a:hover{
+	text-decoration: underline;
+	background-color: #3381c7;
+	color: white;
+}
+.center2{
+	width: 560px;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 215px;
+    background-color: rgba(0,0,0,0.5);
+	border-bottom: 1px solid white;
+	font-weight: bold;
+	font-size: 29px;
+	color:white;
+}
+.center2 div{
+	padding-top: 16px;
+	padding-left: 190px;
+}
+.center{
+	width: 560px;
+	height: 550px;
+	margin: 0 auto;
+    background-color: rgba(0,0,0,0.5);
+	border-top: 1px solid white; 
+}
+.facebook{
+	padding-top: 40px;
+	padding-left: 140px;
+	width: 276px;
+	height: 35px;
+	margin-bottom: 35px;
+}
+.form{
+	padding-left: 140px;
+}
+.form div{
+	margin-bottom: 17px;
+	width: 276px;
+    height: 35px;
+    background-color: black;
+}
+.form div input{
+	width: 276px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.form div input:hover{
+	background-color: #1b5288;
+	border: 1px solid #1b5288;
+	box-shadow: 0px 0px 9px 6px rgba(60,101,118,0.99);
+}
+.send{
+    padding-left: 140px;
+    margin-bottom: 33px;
+    color: white;
+}
+.submit{
+    background-image: url(../img/submit.jpg);
+	background-repeat: no-repeat;
+    width: 152px;
+    height: 36px;
+    margin-left: 205px;
+    margin-bottom: 17px;
+}
+.submit input{
+	padding: 7px 16px;
+	/*visibility: hidden; */
+	opacity: 0;
+}
+
+
+.end{
+	margin-top: 35px;
+	padding-left: 122px;
+	color: white;
+	font-size: 12px;
+}
